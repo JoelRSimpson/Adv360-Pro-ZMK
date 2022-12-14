@@ -21,7 +21,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
-
+    #include "macros_php.dtsi"
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";

@@ -1,0 +1,12 @@
+macro_php_object_operator: macro_php_object_operator {
+compatible = "zmk,behavior-macro";
+label="macro_php_object_operator";
+#binding-cells = <0>;
+bindings = <&kp MINUS>, <&kp LS(PERIOD)>;
+};
+macro_php_double_arrow_operator: macro_php_double_arrow_operator {
+compatible = "zmk,behavior-macro";
+label = "macro_php_double_arrow_operator";
+#binding-cells = <0>;
+bindings = <&kp EQUAL>, <&kp LS(PERIOD)>;
+};
