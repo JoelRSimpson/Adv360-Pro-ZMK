@@ -1,12 +1,17 @@
-macro_php_object_operator: macro_php_object_operator {
+minus_gt: minus_gt {
 compatible = "zmk,behavior-macro";
-label="macro_php_object_operator";
+label="php_object_operator";
 #binding-cells = <0>;
+wait-ms = <5>;
+tap-ms = <5>;
 bindings = <&kp MINUS>, <&kp LS(PERIOD)>;
 };
-macro_php_double_arrow_operator: macro_php_double_arrow_operator {
+
+equal_gt: equal_gt {
 compatible = "zmk,behavior-macro";
-label = "macro_php_double_arrow_operator";
+label = "php_double_arrow_operator";
 #binding-cells = <0>;
+wait-ms = <5>;
+tap-ms = <5>;
 bindings = <&kp EQUAL>, <&kp LS(PERIOD)>;
 };
