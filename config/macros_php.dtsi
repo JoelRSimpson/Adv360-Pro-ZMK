@@ -2,8 +2,8 @@ minus_gt: minus_gt {
 compatible = "zmk,behavior-macro";
 label="php_object_operator";
 #binding-cells = <0>;
-wait-ms = <5>;
-tap-ms = <5>;
+wait-ms = <10>;
+tap-ms = <20>;
 bindings = <&kp MINUS>, <&kp LS(PERIOD)>;
 };
 
@@ -11,7 +11,7 @@ equal_gt: equal_gt {
 compatible = "zmk,behavior-macro";
 label = "php_double_arrow_operator";
 #binding-cells = <0>;
-wait-ms = <5>;
-tap-ms = <5>;
+wait-ms = <10>;
+tap-ms = <20>;
 bindings = <&kp EQUAL>, <&kp LS(PERIOD)>;
 };
